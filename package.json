@@ -1,0 +1,10 @@
+{
+  "name": "projectgen",
+  "version": "1.0.0",
+  "description": "ProjectGen – Final Year Project Generator for Students (MERN SaaS)",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
